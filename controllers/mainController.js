@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-
+    
     index: function(req, res) {
         const rutaVistaHome = path.resolve(__dirname, '../views/home.html');
         res.sendFile(rutaVistaHome)
@@ -14,3 +14,4 @@ module.exports = {
     }
 
 }
+
